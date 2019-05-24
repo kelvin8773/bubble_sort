@@ -17,12 +17,14 @@ def bubble_sort(arr)
   return arr
 end
 
-# sorted_array = bubble_sort([5, 4, 3, 2, 1])
+array1 = [5, 4, 3, 2, 1]
 
-# sorted_array = bubble_sort([4, 3, 78, 2, 0, 2])
+array2 = [4, 3, 78, 2, 0, 2]
 
-sorted_array = bubble_sort([4, 3, 78, 2, 0, 2, 7, 1, 5, 3, 32, 18])
+array3 = [4, 3, 78, 2, 0, 2, 7, 1, 5, 3, 32, 18]
 
-# sorted_array = bubble_sort([4, 3, 78, 2, 0, 2, 5, 19, 2, 12, 67, 89])
+array4 = [4, 3, 78, 2, 0, 2, 5, 19, 2, 12, 67, 89]
 
-puts "Sorted Array is: #{sorted_array}"
+# change the array name in following line to see the result! 
+
+puts "Sorted Array is: #{bubble_sort(array3)}"
